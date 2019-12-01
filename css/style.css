@@ -1,0 +1,38 @@
+.background {
+  position: fixed;
+  background-color: #000;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.menu-wrapper {
+	margin-top: 20px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.menu-item {
+	padding-top: 10px;
+	width: 120px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.menu-item:hover {
+	background-color: #058F9B;
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 1250px) {
+	.background {
+		background-position: center;
+	}
+}
